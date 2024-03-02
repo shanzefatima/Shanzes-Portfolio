@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Shanze Fatima Javed | Resume</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="assets/css/aboutme.css" />
+    <style>
+        /* Paste the CSS code here */
+        body {
+            font-family: 'Poppins', sans-serif;
+            background: linear-gradient(to right, #2980b9, #6dd5fa);
+        }
+
+        .container {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+        }
+
+        .row {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .col-md-6 {
+            text-align: center;
+        }
+
+        .img-fluid {
+            max-width: 100%;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .main-heading {
+            color: #333;
+            font-weight: 700;
+            margin-top: 20px;
+        }
+
+        .pre-heading {
+            color: #555;
+            font-weight: 300;
+            margin-bottom: 20px;
+        }
+
+        /* Styling for the navigation bar */
+        .navbar {
+            background-color: #fff; /* Background color */
+            border-bottom: 1px solid #ccc; /* Bottom border */
+            border-radius: 0; /* Remove border radius */
+        }
+
+        .navbar-brand {
+            color: #333; /* Brand text color */
+            font-weight: bold; /* Brand text weight */
+        }
+
+        .navbar-nav .nav-link {
+            color: #333; /* Link text color */
+            font-weight: bold; /* Link text weight */
+        }
+
+        .navbar-nav .nav-link:hover {
+            color: #000; /* Link text color on hover */
+        }
+
+        .navbar-toggler-icon {
+            background-color: #333; /* Toggler icon color */
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">About Me</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="index.html" href="http://127.0.0.1:5500/index.html">Back To Home</a>
+                </li>
+                <!-- Add more menu items as needed -->
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-fluid" src="assets/images/img.png" alt="Shanze Fatima Javed">
+            </div>
+            <div class="col-md-6">
+                <h2 class="main-heading">Shanze Fatima Javed</h2>
+                <p>I am a student at New York University pursuing my passion for Computer Science and Interactive Media Arts, with a focus on machine learning, data analysis, UI/UX design, human-computer interaction, and web development. I have applied these skills in various projects and internships, demonstrating my creativity, problem-solving, and innovation.
+                </p>
+                <p>I am a multilingual communicator fluent in English, Mandarin, Urdu, Hindi, and Arabic. My technical proficiency spans a wide range of software and design tools, including Adobe Creative Cloud Suite, Figma, Adobe XD, Miro, WordPress, Webflow, Cargo, HTML, CSS, JavaScript, PHP, Python, Rhino, and Grasshopper, equipping me with the versatility to tackle complex challenges in digital product design, creative web development, and interaction design.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Particle Animation Script -->
+    <script>
+        // Function to create particles
+        function createParticle() {
+            const particle = document.createElement('div');
+            particle.classList.add('particle');
+            particle.style.width = Math.random() * 10 + 'px';
+            particle.style.height = particle.style.width;
+            particle.style.left = Math.random() * window.innerWidth + 'px';
+            particle.style.top = Math.random() * window.innerHeight + 'px';
+            document.body.appendChild(particle);
+
+            setTimeout(() => {
+                particle.remove();
+            }, 2000);
+        }
+
+        // Function to trigger particle creation
+        function triggerParticles() {
+            setInterval(createParticle, 100);
+        }
+
+        // Trigger particle animation
+        triggerParticles();
+    </script>
+</body>
+
+</html>

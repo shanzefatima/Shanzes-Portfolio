@@ -10,48 +10,40 @@ const references = [
         name1 : "Mehr Un Nisa Javed",
         designation1 : "Co-founder Rights of Women Campaign",
         image1 : "assets/images/references-page/reviewphoto1.png",
-        message1 : "It was a pleasure to work with Shanze, she has a lot of knowledge, experience, and creativity.Her passion to make a difference in the community is commendable and I am looking forward for her to reach her milestones",
+        message1 : "It was a pleasure to work with Shanze, she has a lot of knowledge, experience, and creativity.Her passion to make a difference in the community is commendable and I am looking forward to see her achieve milestones",
         
 
         sl2:2,
-        name2 : "Andy Grant",
-        designation2 : "Mentor for Mozilla at Google Summer of Code", 
+        name2 : "Founder Fire Side Fellows",
+        designation2 : "Mentor for FireSide Fellowship", 
         image2: "assets/images/references-page/reviewphoto2.png",
-        message2 : "Shanze was part of my team during Google’s Summer of Code program. As her mentor, I worked with her on the Extension Activity Monitor for Firefox. I was constantly impressed with her expertise in programming and her dedication she displayed for completing the project.",
-        
-        
+        message2 : "Shanze was part of my team. As her mentor, I worked with her on the Extension Activity Monitor for Firefox. I was constantly impressed with her expertise in programming and her dedication she displayed for completing the project.",   
     },
 
-
-
     {
-        sl1:5,
+        sl1:1,
         name1 : " Lucy Richardson",
         designation1 : "Mentor, PClub Summer of Code",
         image1 : "assets/images/references-page/reviewphoto5.png",
         message1 : "Shanze was my co-mentor for PClub Summer of Code in 2020. During those two months, she worked tirelessly and patiently with our mentees. She helped them set up their work environments and created a fun environment for them to learn and display their knowledge. I enjoyed working with her, and our mentees definitely cherished the experiences that she provided for them.",
         
-        
-    
-        sl1:7,
-        name1 : "Hannah D'souza",
-        designation1 : "Mentor, GirlScript Summer of Code",
-        image1 : "assets/images/references-page/reviewphoto1.png",
-        message1 : "Shanze has shown great interest in handling our projects. She is extremely hard-working, honest and dependable. Beyond that, she is an impressive problem solver",
-       
-
-        
+        sl1:2,
+        name2 : "Professor at NYU",
+        designation2 : "Mentor for the Research",
+        image2 : "assets/images/references-page/reviewphoto1.png",
+        message2 : "Shanze has shown great interest in handling our projects. She is extremely hard-working, honest and dependable. Beyond that, she is an impressive problem solver",
+          
     },
 
     {
         sl2:1,
-        name2 : "Krystle Thomas",
-        designation2 : "Founder, ULHacks",
-        image2: "assets/images/references-page/reviewphoto3.png",
-        message2 : "Shanze has been a fantastic judge to the hackathon. Very hardworking, smart, and always a learner!",
+        name1: "Coach at Meta",
+        designation1 : "Meta",
+        image1: "assets/images/references-page/reviewphoto3.png",
+        message1 : "Shanze has been a fantastic addition to our AR Visualization Program. Very hardworking, smart, and always a learner!",
         
 
-        sl2:1,
+        sl2:2,
         name2 : "Esther Tony",
         //designation2 : "SDE, Flipkart",
         image2: "assets/images/references-page/reviewphoto4.png",

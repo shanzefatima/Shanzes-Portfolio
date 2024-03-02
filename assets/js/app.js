@@ -1,7 +1,5 @@
 "use strict";
 
-// Header
-
 let header = $(`
 <nav class="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
 <a class="navbar-brand" href="index.html">Shanze Fatima Javed </a>

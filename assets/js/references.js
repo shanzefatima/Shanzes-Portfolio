@@ -39,15 +39,15 @@ const references = [
         sl2:1,
         name1: "Coach at Meta",
         designation1 : "Meta",
-        image1: "assets/images/references-page/reviewphoto3.png",
+        image1: "assets/images/references-page/reviewphoto1.png",
         message1 : "Shanze has been a fantastic addition to our AR Visualization Program. Very hardworking, smart, and always a learner!",
         
 
         sl2:2,
         name2 : "Esther Tony",
-        //designation2 : "SDE, Flipkart",
-        image2: "assets/images/references-page/reviewphoto4.png",
-        message2 : "I had worked with Shanze in research intern team. Shanze would be an asset to have on any team. To say she's a team leader would be an understatement. during her tenure at our company, she's gone out of his way to welcome newcomers and resolve any problems they might have. She pitches innovative ideas at company meetings but also listens to what others have to say, including constructive criticism. When budgetary constraints limited the work our company could complete, Shanze put her highly creative mind to use to come up with alternatives.",
+        designation2 : "Fellow Peer",
+        image2: "assets/images/references-page/reviewphoto1.png",
+        message2 : "I had worked with Shanze in research intern team. Shanze would be an asset to have on any team. To say she's a team leader would be an understatement. She pitches innovative ideas at  meetings but also listens to what others have to say, including constructive criticism. When budgetary constraints limited to the projects, Shanze put her highly creative mind to use to come up with alternatives.",
         
     }
 ];

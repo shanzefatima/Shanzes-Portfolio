@@ -166,6 +166,8 @@ body:before {
   display: block;
   margin: auto; /* Center horizontally */
   max-width: 80%; /* Adjusted to fit mobile screens */
+  margin-top: 60px; /* Adjusted based on the height of your navigation bar */
   background-color: transparent;
 }
+
 

@@ -36,6 +36,8 @@ body:before {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
+  padding: 20px; /* Add padding for better spacing */
+  box-sizing: border-box; /* Include padding in element's total width and height */
   z-index: 1;
 }
 

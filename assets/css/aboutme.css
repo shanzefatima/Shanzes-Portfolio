@@ -36,8 +36,8 @@ body:before {
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  padding: 20px; /* Add padding for better spacing */
-  box-sizing: border-box; /* Include padding in element's total width and height */
+  padding: 20px;
+  box-sizing: border-box;
   z-index: 1;
 }
 
@@ -50,6 +50,7 @@ body:before {
   animation: fadeIn 1.5s ease-out;
   animation-fill-mode: forwards;
   opacity: 0;
+  max-width: 100%; /* Adjusted to fit mobile screens */
 }
 
 /* Keyframes for FadeIn Animation */
@@ -161,5 +162,6 @@ body:before {
 #canvas {
   display: block;
   margin: auto;
+  max-width: 100%; /* Adjusted to fit mobile screens */
   background-color: transparent;
 }

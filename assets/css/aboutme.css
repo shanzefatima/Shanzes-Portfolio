@@ -2,6 +2,7 @@ body {
   font-family: 'Poppins', sans-serif;
   margin: 0;
   padding: 0;
+  overflow: hidden;
   overflow-y: auto; /* Enable vertical scrolling */
 }
 
@@ -50,7 +51,7 @@ body:before {
   animation: fadeIn 1.5s ease-out;
   animation-fill-mode: forwards;
   opacity: 0;
-  max-width: 80%; /* Adjusted width for mobile screens */
+  max-width: 100%; /* Adjusted to fit mobile screens */
   margin: 0 auto; /* Center the row */
 }
 
@@ -162,16 +163,7 @@ body:before {
 /* Canvas Styles */
 #canvas {
   display: block;
-  margin: auto; /* Center horizontally */
-  max-width: 80%; /* Adjusted to fit mobile screens */
+  margin: auto;
+  max-width: 100%; /* Adjusted to fit mobile screens */
   background-color: transparent;
-  margin-top: 60px; /* Adjusted based on the height of your navigation bar */
-}
-
-/* Responsive styles for smaller screens like phones */
-@media only screen and (max-width: 768px) {
-  #canvas {
-    max-width: 100%; /* Adjust width for smaller screens */
-    margin-top: 20px; /* Adjust top margin if needed */
-  }
 }

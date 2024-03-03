@@ -50,9 +50,11 @@ body:before {
   animation: fadeIn 1.5s ease-out;
   animation-fill-mode: forwards;
   opacity: 0;
-  max-width: 100%; /* Adjusted to fit mobile screens */
+  max-width: 80%; /* Adjusted width for mobile screens */
   margin: 0 auto; /* Center the row */
 }
+
+
 
 /* Keyframes for FadeIn Animation */
 @keyframes fadeIn {

@@ -1,9 +1,12 @@
-// JavaScript code here
 const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
-canvas.width = window.innerWidth;
-canvas.height = window.innerHeight;
+function setupCanvas() {
+  canvas.width = window.innerWidth;
+  canvas.height = window.innerHeight;
+}
+
+setupCanvas();
 
 const particles = [];
 
@@ -57,8 +60,7 @@ createParticles();
 animate();
 
 window.addEventListener('resize', () => {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  setupCanvas();
   particles.length = 0;
   createParticles();
 });

@@ -156,3 +156,10 @@ body:before {
     transform: translateY(0);
   }
 }
+
+/* Canvas Styles */
+#canvas {
+  display: block;
+  margin: auto;
+  background-color: transparent;
+}

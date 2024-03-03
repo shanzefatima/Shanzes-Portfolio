@@ -2,8 +2,8 @@ const canvas = document.getElementById('canvas');
 const ctx = canvas.getContext('2d');
 
 function setupCanvas() {
-  canvas.width = window.innerWidth;
-  canvas.height = window.innerHeight;
+  canvas.width = window.innerWidth * 0.8; // Adjust canvas size for better fit on small screens
+  canvas.height = window.innerHeight * 0.8; // Adjust canvas size for better fit on small screens
 }
 
 setupCanvas();

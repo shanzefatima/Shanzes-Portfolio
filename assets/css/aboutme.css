@@ -54,8 +54,6 @@ body:before {
   margin: 0 auto; /* Center the row */
 }
 
-
-
 /* Keyframes for FadeIn Animation */
 @keyframes fadeIn {
   from {
@@ -165,15 +163,15 @@ body:before {
 #canvas {
   display: block;
   margin: auto; /* Center horizontally */
-  max-width: 100%; /* Use full width on larger screens */
+  max-width: 80%; /* Adjusted to fit mobile screens */
   background-color: transparent;
+  margin-top: 60px; /* Adjusted based on the height of your navigation bar */
 }
 
 /* Responsive styles for smaller screens like phones */
 @media only screen and (max-width: 768px) {
   #canvas {
-    max-width: 80%; /* Adjust width for smaller screens */
+    max-width: 100%; /* Adjust width for smaller screens */
     margin-top: 20px; /* Adjust top margin if needed */
   }
 }
-

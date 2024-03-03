@@ -3,6 +3,7 @@ body {
   margin: 0;
   padding: 0;
   overflow: hidden;
+  overflow-y: auto; /* Enable vertical scrolling */
 }
 
 body:before {
@@ -51,6 +52,7 @@ body:before {
   animation-fill-mode: forwards;
   opacity: 0;
   max-width: 100%; /* Adjusted to fit mobile screens */
+  margin: 0 auto; /* Center the row */
 }
 
 /* Keyframes for FadeIn Animation */

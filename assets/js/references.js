@@ -37,10 +37,10 @@ const references = [
 
     {
         sl2:1,
-        name1: "Coach at Meta",
-        designation1 : "Meta",
+        name1: "Chinese Language Instructor",
+        designation1 : "NYU",
         image1: "assets/images/references-page/reviewphoto1.png",
-        message1 : "Shanze has been a fantastic addition to our AR Visualization Program. Very hardworking, smart, and always a learner!",
+        message1 : "Shanze I am very happy to be your Chinese teacher this semester, your kindness and positive attitude toward life always motivated me",
         
 
         sl2:2,

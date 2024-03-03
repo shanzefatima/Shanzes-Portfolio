@@ -164,7 +164,8 @@ body:before {
 /* Canvas Styles */
 #canvas {
   display: block;
-  margin: auto;
-  /* max-width: 100%; /* Adjusted to fit mobile screens */
+  margin: auto; /* Center horizontally */
+  max-width: 80%; /* Adjusted to fit mobile screens */
   background-color: transparent;
 }
+

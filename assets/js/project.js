@@ -4,24 +4,24 @@ AOS.init();
 const projectcards = document.querySelector(".projectcards");
 
 // Array of object for projects
-const projects = [
-  {
+//const projects = [
+  //{
     title: "Audio Art",
     cardImage: "assets/images/project-page/p1.jpg",
     description: "An artificial intelligence bot that chats with users like Google does",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
     Previewlink: "https://shanzefatima.github.io/CCLAB/Project%20B/main.html",
     Githublink: "https://shanzefatima.github.io/CCLAB/Project%20B/main.html"
-  },
-  {
+  //},
+  //{
     title: "A 3D DATA FOREST OF COVID-19'S IMPACT IN SOUTH ASIA",
     cardImage: "assets/images/project-page/02.jpg",
     description: "In my project, I explored how certain demographic indicators were affected during the course of the pandemic in relation to cases, deaths, and population.",
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "https://wp.nyu.edu/shanghai-shanze/project-3-documentation/",
     Githublink: "https://s18798.pcdn.co/shanghai-shanze/wp-content/uploads/sites/28491/2023/12/DCMI-updated-poster.pdf"
-  }
-];
+  //}
+//];
 
 
 

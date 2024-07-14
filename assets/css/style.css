@@ -243,7 +243,9 @@ html {
 
 /* Dark Mode toggle switch button */
 .dark_toggler {
-    -webkit-appearance: none;
+    -webkit-appearance: none; /* For Chrome and Safari */
+    -moz-appearance: none; /* For Firefox */
+    appearance: none; /* Standard syntax */
     position: relative;
     cursor: pointer;
     width: 100px;
@@ -839,6 +841,7 @@ form {
     -moz-transition: all 0.30s ease-in-out;
     -ms-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
+    transition: all 0.30s ease-in-out; /* Standard syntax */
     outline: none;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;

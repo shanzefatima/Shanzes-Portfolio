@@ -18,7 +18,7 @@ const projects = [
     cardImage: "assets/images/project-page/02.jpg",
     description: "In my project, I explored how certain demographic indicators were affected during the course of the pandemic in relation to cases, deaths, and population.",
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-    Previewlink: "https://wp.nyu.edu/shanghai-shanze/project-3-documentation/",
+    Previewlink: "https://medium.com/@sj3802/the-covid-19-data-forest-data-visualization-of-the-pandemics-global-impact-35ca0b206512",
     Githublink: "https://s18798.pcdn.co/shanghai-shanze/wp-content/uploads/sites/28491/2023/12/DCMI-updated-poster.pdf"
   }
 ];

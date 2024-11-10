@@ -8,9 +8,9 @@ const projects = [
   {
     title: "Audio Art",
     cardImage: "assets/images/project-page/p1.jpg",
-    description: "An artificial intelligence bot that chats with users like Google does",
+    description: "Exploration between visuals and audio",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "https://shanzefatima.github.io/CCLAB/Project%20B/main.html",
+    Previewlink: "https://medium.com/@sj3802/audio-art-b79894ae2a25",
     Githublink: "https://shanzefatima.github.io/CCLAB/Project%20B/main.html"
   },
   {

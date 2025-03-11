@@ -606,4 +606,32 @@ a:hover {
   .text{
     margin-top: 1rem;
   }
+
+  .enter-container {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .enter-text {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    transition: color 0.3s ease-in-out;
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .enter-text {
+      color: #fff;
+    }
+  }
+  
+  .enter-link:hover .enter-text {
+    text-decoration: none;
+    color: #007bff;
+  }
+  
+  .enter-link {
+    text-decoration: none;
+  }
+
 }

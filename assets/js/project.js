@@ -42,7 +42,7 @@ const projects = [
 
 {
   title: "Redesigning Snapchat Interface"  ,
-  cardImage: "assets/images/project-page/p8.jpg",
+  cardImage: "assets/images/project-page/p6.jpg",
   //description: "In my project, I explored how certain demographic indicators were affected during the course of the pandemic in relation to cases, deaths, and population.",
   tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
   Previewlink: "https://medium.com/@sj3802/digital-product-design-meal-app-db3d1d6199dd",

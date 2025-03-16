@@ -41,14 +41,26 @@ const projects = [
 , 
 
 {
+  title: "Hyper Market : Grocery Shopping Experience",
+  cardImage: "assets/images/project-page/ph.jpg",
+  //description: "In my project, I explored how certain demographic indicators were affected during the course of the pandemic in relation to cases, deaths, and population.",
+  tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+  Previewlink: "https://medium.com/@sj3802/hyper-market-redefining-the-online-grocery-shopping-experience-e0bc33cf3636",
+  //Githublink: "https://s18798.pcdn.co/shanghai-shanze/wp-content/uploads/sites/28491/2023/12/DCMI-updated-poster.pdf",
+
+}
+,
+
+{
   title: "Redesigning Snapchat Interface"  ,
   cardImage: "assets/images/project-page/p6.jpg",
   //description: "In my project, I explored how certain demographic indicators were affected during the course of the pandemic in relation to cases, deaths, and population.",
   tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-  Previewlink: "https://medium.com/@sj3802/digital-product-design-meal-app-db3d1d6199dd",
+  Previewlink: "https://medium.com/@sj3802/redesigning-snapchat-interface-0135c70069d3",
   //Githublink: "https://s18798.pcdn.co/shanghai-shanze/wp-content/uploads/sites/28491/2023/12/DCMI-updated-poster.pdf",
 
 }
+
 ];
 
 // Function to render project cards

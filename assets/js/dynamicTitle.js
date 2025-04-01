@@ -1,7 +1,7 @@
 window.onload = function () {
   const favicon = document.getElementById("favicon");
   let pageTitle = document.title;
-  let attentionMessage = " Shanze Fatima Javed | Come back";
+  let attentionMessage = " Shanze Fatima Javed ";
 
   document.addEventListener("visibilitychange", function (e) {
     let isPageActive = !document.hidden;

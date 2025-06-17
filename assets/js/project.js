@@ -17,12 +17,12 @@ const projects = [
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "https://medium.com/@sj3802/sustainable-energy-management-via-iot-implementation-19887962fa39",
   },
-  {
-    title: "Digital Product Design: Meal App",
-    cardImage: "assets/images/project-page/p8.jpg",
-    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-    Previewlink: "https://medium.com/@sj3802/digital-product-design-meal-app-db3d1d6199dd",
-  },
+  //{
+    //title: "Digital Product Design: Meal App",
+    //cardImage: "assets/images/project-page/p8.jpg",
+    //tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+    //Previewlink: "https://medium.com/@sj3802/digital-product-design-meal-app-db3d1d6199dd",
+  //},
   {
     title: "Hyper Market : Grocery Shopping Experience",
     cardImage: "assets/images/project-page/ph.jpg",

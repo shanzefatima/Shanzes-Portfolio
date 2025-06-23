@@ -3,9 +3,7 @@
     src: url(../fonts/Agustina.woff);
 }
 
-
-/*CSS variable declaration for light/dark mode*/
-
+/* CSS variable declaration for light/dark mode */
 html[data-theme="light"] {
     --bg-mybtn: red;
     --bg-nav: black;
@@ -61,13 +59,9 @@ html[data-theme="dark"] {
     --col-white: #fff;
 }
 
-
-/*
----------------------------
+/* ---------------------------
         SCROLLBAR
----------------------------
-*/
-
+--------------------------- */
 ::-webkit-scrollbar {
     width: 16px;
 }
@@ -88,11 +82,10 @@ html[data-theme="dark"] {
 
 ::-webkit-scrollbar-thumb:hover {
     background: #ca9eff;
-    
 }
 
-/* Custom Scrollbar for Mozilla Firefox*/
-html{
+/* Custom Scrollbar for Mozilla Firefox */
+html {
     overflow-y: visible;
     scrollbar-color: #ca9eff #f1f1f1;
     scrollbar-width: auto;
@@ -106,13 +99,12 @@ body {
     font-family: "Poppins", sans-serif;
     background-color: var(--bg);
 }
+
 .text-center heading1 exp-head {
     color: white;
 }
 
-
 /* Scroll to Top button */
-
 #btnScrollToTop {
     width: 50px;
     height: 50px;
@@ -131,20 +123,18 @@ body {
     -webkit-animation: up 1.5s infinite;
 }
 
-
-/*
----------------------------------------
+/* ---------------------------------------
    SCROLL TO TOP BUTTON MICROANIMATION
----------------------------------------
-*/
-
+--------------------------------------- */
 @keyframes up {
     0% {
         transform: translate(0);
     }
+
     20% {
         transform: translateY(-15px);
     }
+
     40% {
         transform: translate(0);
     }
@@ -154,28 +144,24 @@ body {
     0% {
         transform: translate(0);
     }
+
     20% {
         transform: translateY(-15px);
     }
+
     40% {
         transform: translate(0);
     }
 }
 
-
 /* smooth scrolling to top */
-
 html {
     scroll-behavior: smooth;
 }
 
-
-/*
-------------------------------------
+/* ------------------------------------
      HAMBURGER ANIMATION
-------------------------------------
-*/
-
+------------------------------------ */
 .hamburger_wrapper {
     float: right;
 }
@@ -243,9 +229,15 @@ html {
 
 /* Dark Mode toggle switch button */
 .dark_toggler {
-    -webkit-appearance: none; /* For Chrome and Safari */
-    -moz-appearance: none; /* For Firefox */
-    appearance: none; /* Standard syntax */
+    -webkit-appearance: none;
+
+    /* For Chrome and Safari */
+    -moz-appearance: none;
+
+    /* For Firefox */
+    appearance: none;
+
+    /* Standard syntax */
     position: relative;
     cursor: pointer;
     width: 100px;
@@ -256,9 +248,9 @@ html {
     outline: none;
     transition: background-image 0.9s;
     box-shadow: 0px 2px 5px 1px gray;
-  }
-  
-  .dark_toggler:before {
+}
+
+.dark_toggler:before {
     content: "";
     position: absolute;
     top: 0;
@@ -269,21 +261,21 @@ html {
     border-radius: 50px;
     transition: all 0.9s;
     background-color: #f7ca33;
-  }
-  
-  .dark_toggler:checked {
+}
+
+.dark_toggler:checked {
     background-image: url(https://i.postimg.cc/Hn0nstVK/Screenshot-2020-04-16-at-1-07-19-PM.png);
     transition: background-image 0.9s;
     box-shadow: 0px 2px 5px 1px rgb(187, 134, 201);
 }
-  
-  .dark_toggler:checked:before {
+
+.dark_toggler:checked:before {
     transform: translate(150%);
     transition: all 0.9s;
     background-color: #bb86fc;
-  }
-  /* end of dark mode toggle switch button */
+}
 
+/* end of dark mode toggle switch button */
 html {
     background-color: #f6f6f6;
     transition: background-color .3s;
@@ -305,8 +297,8 @@ html[light-mode="dark"] {
     color: rgba(255, 255, 255, 0.5);
 }
 
-.dark-theme .nav-link:hover{
-color: #ffffff !important;
+.dark-theme .nav-link:hover {
+    color: #ffffff !important;
 }
 
 .dark-theme .first,
@@ -314,17 +306,16 @@ color: #ffffff !important;
 .dark-theme .third {
     background-color: rgba(255, 255, 255, 0.5);
 }
-.dsc{
-     box-shadow:   2px 5px 5px 0px rgb(130 216 251), 
-     inset -2px -5px 5px 0px rgb(130 216 251);
-     background: #1f1d1d;
-}
-/*
--------------------------------------
-    SIDEBAR SVG ANIMATION
---------------------------------------
-*/
 
+.dsc {
+    box-shadow: 2px 5px 5px 0px rgb(130 216 251), 
+     inset -2px -5px 5px 0px rgb(130 216 251);
+    background: #1f1d1d;
+}
+
+/* -------------------------------------
+    SIDEBAR SVG ANIMATION
+-------------------------------------- */
 .bike {
     margin-top: 30px;
     display: block;
@@ -352,6 +343,7 @@ color: #ffffff !important;
     from {
         transform: rotateZ(0deg);
     }
+
     to {
         transform: rotateZ(360deg);
     }
@@ -361,6 +353,7 @@ color: #ffffff !important;
     from {
         transform: rotateX(0deg);
     }
+
     to {
         transform: rotateX(12deg);
     }
@@ -370,18 +363,15 @@ color: #ffffff !important;
     from {
         transform: translateY(0%) rotateZ(0deg);
     }
+
     to {
         transform: translateY(10%) rotateZ(20deg);
     }
 }
 
-
-/*
--------------------------------------
+/* -------------------------------------
     NAV BAR HIGHTLIGHTING
---------------------------------------
-*/
-
+-------------------------------------- */
 @media only screen and (min-width: 1024px) {
     .current-link {
         font-weight: bolder;
@@ -389,6 +379,7 @@ color: #ffffff !important;
         z-index: 1;
         text-align: center;
     }
+
     .current-link:after {
         content: "";
         position: absolute;
@@ -399,7 +390,7 @@ color: #ffffff !important;
         width: 32%;
         border-bottom: 3px solid #6a00bb;
     }
-    
+
     .nav-item-hover::after {
         content: "";
         display: block;
@@ -411,15 +402,15 @@ color: #ffffff !important;
         background-color: #6a00bb;
         transition: all ease-in-out 280ms;
     }
-    
+
     .nav-item:hover::after {
         width: 50%;
-        
     }
 
     li.nav-item {
         text-align: center;
     }
+
     a.nav-link {
         padding: 6px 21px !important;
     }
@@ -436,9 +427,7 @@ color: #ffffff !important;
     }
 }
 
-
-/**Navbar burger animations**/
-
+/* *Navbar burger animations* */
 .navbar-toggler {
     position: relative;
     display: flex;
@@ -494,16 +483,10 @@ color: #ffffff !important;
     stroke-width: 6;
 }
 
-
-/*
-------------------------
+/* ------------------------
     FOOTER SECTION
-------------------------
-*/
-
-
+------------------------ */
 /* Also have a look at the scroll to top button if changing footer's height (below upArrow in app.js) */
-
 .footer {
     padding-top: 10px;
     font-family: "Poppins", sans-serif;
@@ -545,23 +528,17 @@ color: #ffffff !important;
     margin-bottom: 0.25rem;
 }
 
-
-/********
+/* *******
 Rotate Transition in foote Soical Icon
-*********/
-
+******** */
 .rounded-social-buttons .social-button:hover,
 .rounded-social-buttons .social-button:focus {
     transition: background-color 0.3s, var(--trans-props);
 }
 
-
-/*
-------------------------------
+/* ------------------------------
    TWITTER MICROANIMATION
--------------------------------
-*/
-
+------------------------------- */
 .twitter:hover #wing1 {
     transform-origin: center;
     animation: flap 0.4s ease-out infinite alternate;
@@ -578,13 +555,9 @@ Rotate Transition in foote Soical Icon
     }
 }
 
-
-/*
------------------------------
+/* -----------------------------
    LINKEDIN MICROANIMATION
------------------------------
-*/
-
+----------------------------- */
 .linkedin:hover .linkedin-icon-footer>rect {
     animation: rect-up 0.3s linear infinite;
 }
@@ -594,6 +567,7 @@ Rotate Transition in foote Soical Icon
         y: 10px;
         height: 11px;
     }
+
     0% {
         y: 13px;
         height: 8px;
@@ -608,21 +582,19 @@ Rotate Transition in foote Soical Icon
     75% {
         cy: 8px;
     }
+
     50% {
         cy: 4px;
     }
+
     0% {
         cy: 4px;
     }
 }
 
-
-/*
------------------------------
+/* -----------------------------
    INSTAGRAM MICROANIMATION
------------------------------
-*/
-
+----------------------------- */
 .st0 {
     fill: none;
     stroke: #EF4649;
@@ -654,6 +626,7 @@ Rotate Transition in foote Soical Icon
     50% {
         stroke-dashoffset: 150;
     }
+
     75% {
         fill: #EF4649;
         stroke-dashoffset: 0;
@@ -666,18 +639,15 @@ Rotate Transition in foote Soical Icon
     75% {
         opacity: 0;
     }
+
     100% {
         opacity: 1;
     }
 }
 
-
-/*
------------------------------
+/* -----------------------------
    GITHUB MICROANIMATION
------------------------------
-*/
-
+----------------------------- */
 .github:hover #arm {
     transform-origin: bottom right;
     animation: moveArm 1s infinite alternate;
@@ -687,51 +657,40 @@ Rotate Transition in foote Soical Icon
     0% {
         transform: rotate(10deg);
     }
+
     100% {
         transform: rotate(-10deg);
     }
 }
 
-
 /* twitter SVG micro animation */
-
 .twitter-icon-footer {
     margin-bottom: 6px;
     width: 35px;
 }
 
-
 /* linkedin SVG micro animation */
-
 .linkedin-icon-footer {
     margin-bottom: 8px;
     width: 30px;
 }
 
-
 /* instagram SVG micro animation */
-
 .instagram-icon-footer {
     width: 70px;
     padding-right: 24px;
     padding-bottom: 8px;
 }
 
-
 /* github SVG Micro animation */
-
 .github-icon-footer {
     margin-bottom: 8px;
     width: 35px;
 }
 
-
-/*
-----------------------------------------
+/* ----------------------------------------
    HOVER EFFECT ON SOCIAL MEDIA ICONS
-----------------------------------------
-*/
-
+---------------------------------------- */
 .rounded-social-buttons .social-button.twitter {
     background: #2b2a2A;
     box-shadow: 10px 10px 5px rgb(0 0 0 / 20%);
@@ -776,11 +735,9 @@ Rotate Transition in foote Soical Icon
     background: #2b2a2A;
 }
 
-
-/************
+/* ***********
   Contact Form In Footer
-*************/
-
+************ */
 .display {
     height: auto;
     width: auto;
@@ -803,13 +760,9 @@ form {
     color: #000;
 }
 
-
-/*
--------------------
+/* -------------------
    Footer Form
---------------------
-*/
-
+-------------------- */
 .form-style-6 {
     font: 95% Arial, Helvetica, sans-serif;
     max-width: 400px;
@@ -841,7 +794,9 @@ form {
     -moz-transition: all 0.30s ease-in-out;
     -ms-transition: all 0.30s ease-in-out;
     -o-transition: all 0.30s ease-in-out;
-    transition: all 0.30s ease-in-out; /* Standard syntax */
+    transition: all 0.30s ease-in-out;
+
+    /* Standard syntax */
     outline: none;
     box-sizing: border-box;
     -webkit-box-sizing: border-box;
@@ -893,8 +848,7 @@ form {
 
 .form-style-6 input[type="submit"]:hover,
 .form-style-6 input[type="button"]:hover {
-    background:#6a00bbd2;;
-  
+    background: #6a00bbd2;
 }
 
 .form-comtainer {
@@ -909,23 +863,24 @@ form {
     height: 1.5px;
 }
 
-
 /* to make the navbar open full screen on mobile */
-
 @media (max-width: 768px) {
     .collapse navbar-collapse {
         display: flex;
         justify-content: center;
     }
+
     .footer {
         padding-top: 10px;
     }
+
     #navbar-content {
         margin-top: -200px;
         height: 120vh;
         text-align: center;
         transform: translateY(25%);
     }
+
     #btnScrollToTop {
         display: none;
     }
@@ -936,12 +891,14 @@ form {
         display: flex;
         justify-content: center;
     }
+
     #navbar-content {
         margin-top: -180px;
         height: 120vh;
         text-align: center;
         transform: translateY(25%);
     }
+
     #btnScrollToTop {
         display: none;
     }
@@ -952,12 +909,14 @@ form {
         display: flex;
         justify-content: center;
     }
+
     #navbar-content {
         margin-top: -180px;
         height: 120vh;
         text-align: center;
         transform: translateY(25%);
     }
+
     #btnScrollToTop {
         display: none;
     }
@@ -968,23 +927,24 @@ form {
         display: flex;
         justify-content: center;
     }
+
     #navbar-content {
         margin-top: -140px;
         height: 130vh;
         text-align: center;
         transform: translateY(25%);
     }
+
     .footer {
         margin-top: 6rem;
     }
+
     #btnScrollToTop {
         display: none;
     }
 }
 
-
 /* box shadow for profile picture */
-
 .rounded-circle {
     box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
     -moz-box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2);
@@ -994,46 +954,46 @@ form {
     .enter-container {
         text-align: center;
         margin-top: 50px;
-      }
-      
-      .enter-text {
+    }
+
+    .enter-text {
         font-size: 18px;
         font-weight: bold;
         color: #000;
         transition: color 0.3s ease-in-out;
-      }
-      
-      @media (prefers-color-scheme: dark) {
+    }
+
+    @media (prefers-color-scheme: dark) {
         .enter-text {
-          color: #fff;
+            color: #fff;
         }
-      }
-      
-      .enter-link:hover .enter-text {
+    }
+
+    .enter-link:hover .enter-text {
         text-decoration: none;
         color: #007bff;
-      }
-      
-      .enter-link {
+    }
+
+    .enter-link {
         text-decoration: none;
-      }
-      
-      .modal-content {
+    }
+
+    .modal-content {
         background-color: #f9f9f9;
         border: 1px solid #ccc;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      
-      .game-board {
+    }
+
+    .game-board {
         width: 300px;
         height: 300px;
         margin: 20px auto;
         background-color: #fff;
         border: 1px solid #ccc;
         box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-      }
-      
-      .cell {
+    }
+
+    .cell {
         width: 100px;
         height: 100px;
         border: 1px solid #ccc;
@@ -1042,5 +1002,5 @@ form {
         line-height: 100px;
         font-size: 36px;
         cursor: pointer;
-      }
+    }
 }

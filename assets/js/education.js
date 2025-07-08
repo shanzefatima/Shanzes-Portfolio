@@ -10,10 +10,10 @@ const moocscards = [
     description: "This course introduces the fundamentals of Extended Reality (XR), including Virtual Reality (VR), Augmented Reality (AR), and Mixed Reality (MR). Learn to design and develop immersive experiences.",
   },
   {
-    title: "User Experience Design",
-    cardImage: "assets/images/education-page/google1.svg",
-    moocLink: "https://coursera.org/verify/GBTTKMTWKCFU",
-    description: "Master the principles of User Experience (UX) design, including user research, wireframing, prototyping, and usability testing. Create user-centered designs for digital products.",
+    title: "Creativity & AI, Professional Certificate",
+    cardImage: "assets/images/education-page/parsons.svg",
+    moocLink: "https://coursera.org/verify/specialization/B658YDMTKMPZ",
+    description: "Combine creativity and AI to design innovative solutions. Learn how AI can enhance creative processes in art, design, and storytelling.",
   },
   {
     title: "Generative AI Learning",
@@ -26,11 +26,11 @@ const moocscards = [
     moocLink: "https://coursera.org/verify/professional-cert/WJ6Y28S3QL24",
     description: "Become a certified AR developer with Meta. Learn to build augmented reality applications using industry-standard tools and frameworks.",
   },
-  {
-    title: "Creativity & AI, Professional Certificate",
-    cardImage: "assets/images/education-page/parsons.svg",
-    moocLink: "https://coursera.org/verify/specialization/B658YDMTKMPZ",
-    description: "Combine creativity and AI to design innovative solutions. Learn how AI can enhance creative processes in art, design, and storytelling.",
+    {
+    title: "User Experience Design",
+    cardImage: "assets/images/education-page/google1.svg",
+    moocLink: "https://coursera.org/verify/GBTTKMTWKCFU",
+    description: "Master the principles of User Experience (UX) design, including user research, wireframing, prototyping, and usability testing. Create user-centered designs for digital products.",
   },
   {
     title: "AI & Law",

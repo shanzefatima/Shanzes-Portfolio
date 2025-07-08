@@ -1,6 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
+  …
+  <!-- Local Stylesheets -->
+  <link rel="stylesheet" href="assets/css/education.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- FORCE MOOC CARDS TO WHITE -->
+  <style>
+    /* targets any Bootstrap card (or custom card) inside your .moocs row */
+    #mooc .moocs .card {
+      background-color: #fff !important;
+    }
+  </style>
+  <!-- Favicon -->
+  <link id="shanze" rel="icon" href="assets/images/shanze.jpg" type="image/png">
+  …
+</head>
+
+    <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Shanze's Education</title>
@@ -11,12 +28,29 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.0.0/animate.min.css">
         <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
         <!-- Local Stylesheets -->
-        <link rel="stylesheet" href="assets/css/preloader.css">
-        <link rel="stylesheet" href="assets/css/education.css">
-        <link rel="stylesheet" href="assets/css/style.css">
-        <link rel="stylesheet" href="assets/css/cursor.css">
-        <!-- Favicon -->
-        <link id="shanze" rel="icon" href="assets/images/shanze.jpg" type="image/png">
+  <link rel="stylesheet" href="assets/css/education.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!-- FORCE A WHITE, 3-COLUMN GRID FOR ALL MOOC CARDS -->
+  <style>
+    /* turn the container into a 3-col grid */
+    #mooc .moocs {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 1rem;
+      align-items: start;
+    }
+
+    /* force every card inside it to have a white bg */
+    #mooc .mooc-card,
+    #mooc .moocs .card {
+      background-color: #fff !important;
+    }
+  </style>
+  …
+  <!-- Favicon -->
+  <link id="shanze" rel="icon" href="assets/images/shanze.jpg" type="image/png">
+  …
+</head>
         <!-- Custom Font Style -->
         <style>.navbar-brand { font-family: 'Great Vibes', cursive; font-size: 28px; padding-left: 20px; color: #060607 !important; }</style>
         <!-- Scripts -->

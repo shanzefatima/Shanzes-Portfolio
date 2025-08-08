@@ -11,12 +11,12 @@ const projects = [
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "https://medium.com/@sj3802/the-covid-19-data-forest-data-visualization-of-the-pandemics-global-impact-35ca0b206512",
   },
-  {
-    title: "Sustainable Energy Management via IoT — Implementation",
-    cardImage: "assets/images/project-page/p3.jpg",
-    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-    Previewlink: "https://medium.com/@sj3802/sustainable-energy-management-via-iot-implementation-19887962fa39",
-  },
+  //{
+    //title: "Sustainable Energy Management via IoT — Implementation",
+    //cardImage: "assets/images/project-page/p3.jpg",
+    //tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+    //Previewlink: "https://medium.com/@sj3802/sustainable-energy-management-via-iot-implementation-19887962fa39",
+  //},
   //{
     //title: "Digital Product Design: Meal App",
     //cardImage: "assets/images/project-page/p8.jpg",
@@ -29,12 +29,12 @@ const projects = [
     tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
     Previewlink: "https://medium.com/@sj3802/hyper-market-redefining-the-online-grocery-shopping-experience-e0bc33cf3636",
   },
-  {
-    title: "Redesigning Snapchat Interface",
-    cardImage: "assets/images/project-page/p6.jpg",
-    tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
-    Previewlink: "https://medium.com/@sj3802/redesigning-snapchat-interface-0135c70069d3",
-  },
+  //{
+    //title: "Redesigning Snapchat Interface",
+    //cardImage: "assets/images/project-page/p6.jpg",
+    //tagimg: "https://miro.medium.com/max/2800/0*U2DmhXYumRyXH6X1.png",
+    //Previewlink: "https://medium.com/@sj3802/redesigning-snapchat-interface-0135c70069d3",
+  //},
   {
     title: "Shoot for the Stars - Escape Room For Blind",
     cardImage: "assets/images/project-page/p10.jpg",
